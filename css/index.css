@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+section{
+    height: 100vh;
+    
+}
+#pass{
+    margin-bottom: 15px;
+    display: block;
+    color: #007AF3;
+}
+.left-col h1{
+    color: #007AF3;
+    font-size: 80px;
+    margin-top: 65px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-col{
+    margin-right: 112px;
+}
+.left-col h3{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 112px;
+    height: 80%;
+    background-color: #F2F2F2;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 20px 28px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 65px;
+}
+label{
+    display: block;
+}
+input, textarea{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: text;
+}
+.login-facebook{
+    display: block;
+    margin-top: 5px;
+    background-color: #007AF3;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px;
+}
+#account{
+    background-color: #42B72A;
+    color: white;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.celebrity{
+    margin-top: 30px;
+}
+#box{
+    background-color: white;
+    padding: 20px 20px 20px;
+    color: grey;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.lang{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    color: grey;
+}
+.lang>li>a{
+    font-size: 12px;
+    color: #737373;
+}
+.backg{
+    background-color: white;
+    padding:30px 15% 10px 15%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* overflow-x: hidden; */
+    /* height: 20%; */
+    /* margin-top: 10%; */
+}
+#footer{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    width: 100%;
+    color: grey;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#footer>li>a{
+    font-size: 12px;
+    color: #737373;
+}
+#meta{
+    margin-top: 20px;
+    color: #737373;
+    font-family: inherit;
+    font-size: 15px;
+}
